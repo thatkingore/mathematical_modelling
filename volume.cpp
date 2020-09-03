@@ -1,3 +1,4 @@
+#define _USE_MATH_DEFINES
 #include "catch.hpp"
 
 const double Pi = M_PI; // use standard library definition of Pi
