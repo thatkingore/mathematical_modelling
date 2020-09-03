@@ -1,3 +1,8 @@
+#include "catch.hpp"
+
+const double Pi = M_PI; // use standard library definition of Pi
+const double Tau = 2 * Pi;
+
 double cylinderVolume(double circumference, double height) {
     return (circumference * circumference * height) / (4 * Pi);
 }
