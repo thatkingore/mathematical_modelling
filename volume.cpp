@@ -17,3 +17,9 @@ double actualJugVolume () {
     double coin4 = cylinderVolume(30.2, 3.5);
     return coin1 + coin2 + coin3 + coin4; 
 }
+
+TEST_CASE("cylinderVolume") {
+    REQUIRE(0.0 == cylinderVolume(0.0, 0.0));
+    REQUIRE(Approx(3.8197218) == cylinderVolume(4.0, 3.0));
+    REQUIRE(Approx(27233.42) == cylinderVolume(117.0, 25.0));
+}
