@@ -4,3 +4,8 @@
 1. Define
 2. Write scenarios
 3. Test.
+
+## Sudoku Checker
+1. Define
+2. Write scenarios
+3. Test!
