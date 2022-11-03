@@ -1,4 +1,4 @@
-# C++ Recap
+# Mathematical Modelling Using C++
 
 ## Jug Volume
 1. Define
